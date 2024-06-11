@@ -1,0 +1,31 @@
+/* reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button{ 
+    background-color: blue;
+    color: #ffff;
+    border-radius: 15px ;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: all 0.5 ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-12%, -12%);
+}
+
+button:hover{
+    background-color: red;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
